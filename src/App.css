@@ -212,7 +212,7 @@ div.loader{
   animation: loader 1s infinite linear;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 720px) {
   header{
     width: 100%;
   }
@@ -231,6 +231,11 @@ div.loader{
   form.submit > button{
     width: 180px;
     font-size: 0.85rem;
+  }
+
+  p.hint{
+    font-size: 11px;
+    text-align: center;
   }
 
   div.get-recipe-container{
